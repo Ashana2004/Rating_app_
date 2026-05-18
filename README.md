@@ -1,5 +1,5 @@
 # Ratify App 
-Live Demo: [https://store-ratingapp-zrt5.vercel.app/](https://store-ratingapp-zrt5.vercel.app/)
+
 
 A modern, full-stack web application for managing and collecting store ratings, featuring role-based dashboards for Users, Store Owners, and Administrators.
 
