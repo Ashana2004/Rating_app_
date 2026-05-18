@@ -97,7 +97,7 @@ router.get("/users", verifyToken, (req, res) => {
     params.push(`%${address}%`);
   }
 
-  sql += ` GROUP BY u.id, u.username, u.email, u.address, u.role, u.created_at ORDER BY ${sortBy} ${order} LIMIT ? OFFSET ?`;
+  sql += ` GROUP BY u.id, u.username, u.email, u.address, u.role, u.created_at ORDER BY u.${sortBy} ${order} LIMIT ? OFFSET ?`;
   params.push(limit, offset);
 
   db.query(sql, params, (err, results) => {
@@ -181,7 +181,7 @@ router.get("/admin-users", verifyToken, (req, res) => {
     params.push(`%${address}%`);
   }
 
-  sql += ` GROUP BY u.id, u.username, u.email, u.address, u.role, u.created_at ORDER BY ${sortBy} ${order} LIMIT ? OFFSET ?`;
+  sql += ` GROUP BY u.id, u.username, u.email, u.address, u.role, u.created_at ORDER BY u.${sortBy} ${order} LIMIT ? OFFSET ?`;
   params.push(limit, offset);
 
   db.query(sql, params, (err, results) => {
