@@ -29,6 +29,13 @@ A modern, full-stack web application for managing and collecting store ratings, 
   - View sortable and filterable data tables for users and stores.
 - Enforces strict data integrity and role-based access control.
 
+- # Dashboard UI 
+<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/310ed95e-50ad-4fbd-a98a-253e641a25ea" />
+<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/ed7d78f8-5c12-4185-b270-d68a36978471" />
+<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/60b42509-2bc3-41b1-967f-35cd9652835c" />
+<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/8479f967-299c-4a00-86ad-40a71baa6f13" />
+<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/8469e1c6-11cc-48e5-81d5-9cc7eb58e9e8" />
+
 ---
 
 ## 🚀 Technologies Used
